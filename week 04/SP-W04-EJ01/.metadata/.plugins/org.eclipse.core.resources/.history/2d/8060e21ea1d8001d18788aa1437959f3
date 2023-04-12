@@ -1,0 +1,10 @@
+package matricula;
+import matricula.Persona;
+
+public class Alumno {
+	public String codigo, carrera, modalidad, categoria;
+	
+	public void saludar() {
+		System.out.println("I'm a student");
+	}
+}

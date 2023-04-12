@@ -1,0 +1,12 @@
+package matricula;
+import java.util.Date;
+
+public class Docente {
+	public String nombre, apellido, dni, correo, correoElectronico, direccion, telefono;
+	public int edad;
+	public Date fechaIngreso;
+	
+	public void saludar() {
+		System.out.println("I'm a person");
+	}
+}

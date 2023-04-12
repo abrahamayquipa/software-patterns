@@ -1,0 +1,4 @@
+INDEX VERSION 1.132+C:\Users\Abraham\Desktop\software-pattners\week 04\SP-W01-EJ01\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3581163120.index
+2997751365.index

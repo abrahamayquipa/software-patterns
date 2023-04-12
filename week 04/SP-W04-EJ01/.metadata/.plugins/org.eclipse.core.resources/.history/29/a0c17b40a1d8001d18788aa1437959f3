@@ -1,0 +1,10 @@
+package matricula;
+
+public class Trabajador {
+	public String codigoTrabajador, area;
+	public Integer horasMensuales;
+	
+	public void saludar() {
+		System.out.println("I'm a worker");
+	}
+}
