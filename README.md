@@ -12,6 +12,15 @@ Each pattern is like a blueprint that can be customized to solve a particular de
 Patterns are a set of tools that provide solutions to common software design problems. 
 They define a common language that helps your team to communicate more efficiently.
 
+## Most used patterns
+* Factory method
+* Singleton
+* Observer
+* Strategy
+* Adapter
+* Builder
+* State
+
 ## ⛓️ Types software pattners 
 ###  🛠️ Creational:
 These patterns focus on the creation of objects and their initialization. The main goal is to facilitate the creation of objects in an efficient and flexible way.
