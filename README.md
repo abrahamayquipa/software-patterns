@@ -13,12 +13,12 @@ Patterns are a set of tools that provide solutions to common software design pro
 They define a common language that helps your team to communicate more efficiently.
 
 ## Most used patterns
-* Factory method
-* Singleton
-* Observer
+* Factory method +
+* Singleton +
+* Observer +
 * Strategy
-* Adapter
-* Builder
+* Adapter +
+* Builder +
 * State
 
 ## ⛓️ Types software pattners 
@@ -28,17 +28,17 @@ These patterns focus on the creation of objects and their initialization. The ma
 Example from everyday life: When buying a car, there are different customization options, such as color, model and additional features. 
 The purchase process involves the creation of a customized car object according to the customer's specifications.
 
-* Factory Method: This pattern is used to create objects without specifying the exact type of the object to be created. 
+* ⭐ Factory Method: This pattern is used to create objects without specifying the exact type of the object to be created. 
 For example, a car factory may have different production lines for different types of cars (sedan, station wagon, sports car), but the customer only needs to specify the type of car he wants to buy.
+
+* ⭐ Builder: This pattern is used to build complex objects step by step. 
+For example, when building a house, first the walls are built, then the floors and ceilings are added, and finally the furniture and accessories are installed.
+
+* ⭐ Singleton: This pattern ensures that a class has a single instance and provides a global access point to it. 
+For example, a class that manages a database connection can be a singleton to ensure that there is always a single active connection in the system.
 
 * Abstract Factory: This pattern provides an interface to create families of related or dependent objects without specifying their concrete classes. 
 For example, a furniture factory can have an "abstract factory" interface to create different types of furniture (tables, chairs, sofas) that share a common design or style.
-
-* Builder: This pattern is used to build complex objects step by step. 
-For example, when building a house, first the walls are built, then the floors and ceilings are added, and finally the furniture and accessories are installed.
-
-* Singleton: This pattern ensures that a class has a single instance and provides a global access point to it. 
-For example, a class that manages a database connection can be a singleton to ensure that there is always a single active connection in the system.
 
 * Prototype: This pattern is used to create new objects by cloning existing objects. For example, a photo store may have a library of photo album templates, and customers can customize and clone these templates to create their own custom albums.
 
@@ -48,7 +48,7 @@ These patterns focus on the composition of objects and their relationship to eac
 Example from everyday life: A building is composed of different elements, such as walls, windows, doors and floors. 
 Each of these elements interacts with each other to form the complete structure of the building.
 
-* Adapter: allows two incompatible interfaces to work together. 
+* ⭐ Adapter: allows two incompatible interfaces to work together. 
 An example from everyday life is the power adapter used to connect electronic devices from different regions of the world.
 
 * Bridge: separates an abstraction from its implementation, allowing the two to change independently. 
@@ -70,9 +70,12 @@ These patterns focus on the interaction and communication between objects and ho
 
 Example from everyday life: When two people talk to each other, there is interaction and communication between them. Each person can perform different behaviors, such as listening, talking, asking questions, etc. The interaction and behavior between these people is defined by behavioral software patterns.
 
-* Strategy: Allows you to change the behavior of an object at runtime. An example would be a video game where a character can change its attack strategy depending on the situation.
+* ⭐ Strategy: Allows you to change the behavior of an object at runtime. An example would be a video game where a character can change its attack strategy depending on the situation.
 
-* Observer: Allows an object to notify other objects when there is a change in its state. An example would be a "like" button on a social network that notifies other users when someone has "liked" a post.
+* ⭐ Observer: Allows an object to notify other objects when there is a change in its state. An example would be a "like" button on a social network that notifies other users when someone has "liked" a post.
+
+* ⭐ State: Allows an object to alter its behavior when its internal state changes. 
+An example would be a thermostat that changes the temperature in a room depending on the time of day or the presence of people.
 
 * Template Method: Defines the structure of an algorithm and allows subclasses to provide specific implementations of individual steps. 
 An example would be a cooking recipe where the general structure is the same for different types of dishes, but the ingredients and specific steps may vary.
@@ -91,9 +94,6 @@ An example would be an online chat where the mediator is the chat server that co
 
 * Memento: Allows an object to capture its internal state and restore it later without violating the encapsulation principle. 
 An example would be a word processor that automatically saves the file being edited and allows the user to revert to a previous version of the file if necessary.
-
-* State: Allows an object to alter its behavior when its internal state changes. 
-An example would be a thermostat that changes the temperature in a room depending on the time of day or the presence of people.
 
 * Strategy: Defines a family of algorithms, encapsulates each one and makes them interchangeable. 
 An example would be a photo editing program that allows the user to select different algorithms to resize the image or adjust the brightness and contrast.
