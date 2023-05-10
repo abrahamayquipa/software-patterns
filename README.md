@@ -13,12 +13,12 @@ Patterns are a set of tools that provide solutions to common software design pro
 They define a common language that helps your team to communicate more efficiently.
 
 ## Most used patterns
-* Factory method +
-* Singleton +
-* Observer +
+* Factory method 
+* Singleton 
+* Observer 
 * Strategy
-* Adapter +
-* Builder +
+* Adapter 
+* Builder 
 * State
 
 ## ⛓️ Types software pattners 
