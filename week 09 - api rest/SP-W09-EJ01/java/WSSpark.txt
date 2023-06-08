@@ -1,0 +1,33 @@
+import static spark.Spark.*;
+
+public class simpleRouter {
+
+    public static void main(String[] args) {
+
+        get("/hello", (request, response) -> "Hola Mundo!");
+
+        post("/hello", (request, response) -> "Hola Mundo: " + request.body());
+
+        get("/private", (request, response) -> {
+            response.status(401);
+            return "Es privada Go Away!!!";
+        });
+
+        get("/users/:name", (request, response) -> "usuario seleccionado: " + request.params(":name"));
+
+        get("/news/:section", (request, response) -> {
+            response.type("text/xml");
+            return "" + request.params("section") + "";
+        });
+
+        get("/protected", (request, response) -> {
+            halt(403, "Area protegida!!!");
+            return null;
+        });
+
+        get("/redirect", (request, response) -> {
+            response.redirect("http://www.upc.edu.pe");
+            return null;
+        });
+    }
+}
