@@ -1,4 +1,4 @@
-# 🖥️ Software pattners
+# 🖥️ Software patterns
 ## 📖 Definition
 Design patterns are common solutions to common problems in software design. 
 Each pattern is like a blueprint that can be customized to solve a particular design problem in your code.
